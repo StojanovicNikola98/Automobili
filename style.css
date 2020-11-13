@@ -1,0 +1,60 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c0392b;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li p {
+  display: block;
+  color: white;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #bdc3c7;
+  color: #34495e;
+}
+img {
+  position: relative;
+  left: 100px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.karakteristike {
+  display: flex;
+  flex-flow: column wrap;
+}
+i {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  color: black;
+  padding: 20px;
+  padding-right: 90px;
+}
+.automobili {
+  width: auto;
+  height: 100px;
+}
+.social {
+  padding-bottom: 15px;
+}
+h2 {
+  font-family: "Courier New", Courier, monospace;
+}
